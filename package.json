@@ -1,0 +1,17 @@
+{
+  "name": "wbtech-codestyle",
+  "version": "1.0.0",
+  "description": "All code style checkers in one package",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:jefo/wbtech-codestyle.git",
+    "type": "git"
+  },
+  "author": "jefo <johnyjefo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1"
+  }
+}touch
