@@ -1,0 +1,10 @@
+---
+  parserOptions:
+    ecmaVersion: 6
+    sourceType: module
+  env:
+    browser: true
+    commonjs: true
+    es6: true
+  extends:
+    - ../../eslint/es2015+.yml
