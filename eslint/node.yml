@@ -1,0 +1,8 @@
+---
+  rules:
+
+    # Node.js
+    callback-return: warn
+    handle-callback-err: [warn, err]
+    no-process-exit: warn
+    no-sync: off

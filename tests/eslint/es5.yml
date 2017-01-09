@@ -1,0 +1,9 @@
+---
+  parserOptions:
+    ecmaVersion: 5
+    sourceType: script
+  env:
+    browser: true
+    commonjs: true
+  extends:
+    - ../../eslint/es5.yml
