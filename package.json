@@ -10,7 +10,8 @@
   "author": "jefo <johnyjefo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test-eslint": "cd tests/eslint && eslint -c es5.yml file.js && eslint -c es2015+.yml file.js && eslint -c node.yml file.js",
+    "test-eslint-config": "echo '' | eslint --no-eslintrc --stdin -c tests/eslint/$CONFIG",
+    "test-eslint": "CONFIG=es5.yml npm run test-eslint-config && CONFIG=es2015+.yml npm run test-eslint-config && CONFIG=node.yml npm run test-eslint-config",
     "test": "npm run test-eslint"
   },
   "peerDependencies": {
