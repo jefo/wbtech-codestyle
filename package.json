@@ -12,7 +12,8 @@
   "scripts": {
     "test-eslint-config": "echo '' | eslint --no-eslintrc --stdin -c tests/eslint/$CONFIG",
     "test-eslint": "CONFIG=es5.yml npm run test-eslint-config && CONFIG=es2015+.yml npm run test-eslint-config && CONFIG=node.yml npm run test-eslint-config",
-    "test": "npm run test-eslint"
+    "test": "npm run test-eslint",
+    "install": "node ./install.js"
   },
   "peerDependencies": {
     "eslint": "^3.12.2",
